@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Agenda</title>
+</head>
+<body>
+    <h1>Minha Agenda</h1>
+    <script>
+        let minhaAgenda = ["6:30h - Escovar os dentes", "7h - Tomar café", "8h - Estudar", "11h - Tomar banho", "11:45 - Almoçar", "12:20h - Ir para escola", "19h - Fazer tarefa"];
+        console.log(`Minha agenda é ${minhaAgenda}.`);
+        console.log(`Minha primeira tarefa do dia é ${minhaAgenda[0]}.`);
+
+        minhaAgenda.length
+        console.log(`Eu tenho ${minhaAgenda.length} tarefas para fazer hoje.`);
+
+        minhaAgenda.push("20h - Ir a um Aniversário");
+        console.log(`${minhaAgenda}.`);
+
+        minhaAgenda.sort()
+        console.log(` ${minhaAgenda}.`);
+
+        
+
+        minhaAgenda.shift();
+        console.log(`Tarefa concluida 11:45 - Almoçar✅`);
+        console.log(`${minhaAgenda}.`);
+
+        minhaAgenda.pop(); 
+        console.log(`Ultima tarefa cancelada! 8h - Estudar`);
+        console.log(`${minhaAgenda}.`)   ;
+
+        
+
+    
+    </script>
+</body>
+</html>
