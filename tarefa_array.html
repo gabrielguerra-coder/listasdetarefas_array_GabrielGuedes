@@ -8,7 +8,7 @@
 <body>
     <h1>Minha Agenda</h1>
     <script>
-        let minhaAgenda = ["6:30h - Escovar os dentes", "7h - Tomar café", "8h - Estudar", "11h - Tomar banho", "11:45 - Almoçar", "12:20h - Ir para escola", "19h - Fazer tarefa"];
+        let minhaAgenda = ["\n 6:30h - Escovar os dentes", "\n 7h - Tomar café", "\n 8h - Estudar", "\n 11h - Tomar banho", "\n 11:45 - Almoçar", "\n 12:20h - Ir para escola", "\n 19h - Fazer tarefa"];   
         console.log(`Minha agenda é ${minhaAgenda}.`);
         console.log(`Minha primeira tarefa do dia é ${minhaAgenda[0]}.`);
 
@@ -26,8 +26,11 @@
         console.log(`${minhaAgenda}.`);
 
         minhaAgenda.pop(); 
-        console.log(`Ultima tarefa cancelada! 8h - Estudar`);
+        console.log(`Ultima tarefa cancelada!20h - Ir a um Aniversário `);
         console.log(`${minhaAgenda}.`);
+
+        minhaAgenda.splice(2,1);
+        console.log(`${minhaAgenda}`);
         
          
     
